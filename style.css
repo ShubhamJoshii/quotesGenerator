@@ -1,0 +1,233 @@
+* {
+  margin: 0px 40px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    #525bd7 10%,
+    #823bcc,
+    #9f2dba,
+    #992fc0,
+    #9431c2,
+    #c52c92,
+    #d62a76,
+    #f76f24,
+    #ffd46e
+  );
+}
+
+.quotes {
+  position: relative;
+  height: 575px;
+  width: 485px;
+  margin: auto;
+  top: 76px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+#profile {
+  width: 61px;
+  border-radius: 51%;
+  margin-left: 24px;
+  height: 54px;
+  margin-right: 13px;
+}
+
+.text,
+.text h3,
+.text p {
+  margin: 0px;
+  width: 200px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+
+.text p {
+  font-size: 13px;
+  color: grey;
+}
+.user {
+  display: flex;
+  margin: 0px;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.setting_dot {
+  margin-left: 100px;
+  font-size: 24px;
+  color: rgb(83, 83, 83);
+}
+
+.quotes_text {
+  margin: 0px;
+}
+
+.background_quotes {
+  margin-top: 12px;
+  height: 380px;
+  width: 406px;
+  border: 2px solid rgba(0, 0, 0, 0.307);
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  /* background-color: rgb(169, 167, 167); */
+  /* background-repeat: no-repeat; */
+  background-image: url("./Picture/Quotesbackground.jpg");
+}
+.share {
+  display: flex;
+  position: relative;
+  margin-top: 392px;
+}
+
+.slide {
+  display: flex;
+  position: absolute;
+  top: -29px;
+  left: 104px;
+  align-self: center;
+}
+
+.slide button {
+  border: none;
+  background: none;
+  font-size: 50px;
+  color: rgb(183, 181, 181);
+  margin: 0px;
+  /* height: 8px; */
+  padding: 0px;
+}
+#like {
+  width: 160px;
+  height: 37px;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-right: 9px;
+}
+
+#comment {
+  width: 160px;
+  height: 37px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+#save {
+  margin-top: 5px;
+  width: 35px;
+  height: 38px;
+  margin-left: 170px;
+}
+
+.last {
+  margin: 0px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+.last b {
+  margin: 0px;
+  padding-right: 10px;
+}
+#days {
+  font-size: 9px;
+  color: rgb(156, 155, 155);
+}
+
+#thoughts {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 41px;
+  margin: 78px 10px 10px 32px;
+  position: relative;
+}
+
+#thoughtsAuthor {
+  color: #ffffff;
+  /* color:#FF1E00; */
+  position: relative;
+  top: 100px;
+  margin: 0px 17px 21px 35px;
+}
+
+#nextButton {
+  position: absolute;
+  left: 335px;
+  top: 186px;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 26px;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.593);
+}
+
+#pervButton {
+  position: absolute;
+  left: -41px;
+  top: 186px;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 26px;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.593);
+}
+
+@media only screen and (max-width: 922px) {
+  body,
+  .container {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  html {
+    margin: 0px;
+  }
+  .quotes {
+    height: 700px;
+  }
+  .last p {
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 21px;
+  }
+  #nextButton {
+    left: 380px;
+    top: 207px;
+  }
+
+  #pervButton {
+    top: 207px;
+  }
+  #days {
+    font-size: 17px;
+  }
+  .background_quotes {
+    margin-left: 10px;
+    width: 455px;
+    height: 435px;
+  }
+  .share {
+    margin-top: 454px;
+    margin-left: 10px;
+  }
+  #like {
+    width: 144px;
+    height: 55px;
+    margin-right: 0px;
+  }
+  #comment {
+    height: 55px;
+    margin-top: 3px;
+  }
+  .slide {
+    left: 167px;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  body {
+    width: 566px;
+  }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Generator -API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="quotes">
+            <div class="user">
+                <img src="./Picture/profile.jpeg" alt="profile" id="profile">
+                <div class="text">
+                    <h3>Shubham Joshi</h3>
+                    <p>Delhi, India</p>
+                </div>
+                <div class="setting">
+                    <i class="fa-solid fa-ellipsis-vertical setting_dot"></i>
+                </div>
+            </div>
+            <div class="quotes_text">
+                <div class="background_quotes">
+                    <p id="thoughts"></p>
+                    <p id="thoughtsAuthor"></p>
+                    <button onclick="previous()" id="pervButton" ><</button>
+                    <button onclick="next()" id="nextButton" >></button>
+                </div>
+            </div>
+            <div class="share">
+                <img src="./Picture/like.jpg" alt="like" id="like" onclick="changeON() ">
+                <img src="./Picture/likeComment.jpg" alt="like" id="comment">
+                <div class="slide">
+                    <button onclick="previous()" style="opacity: 0.2;">.</button>
+                    <button onclick="previous()" style="opacity: 0.4;">.</button>
+                    <button onclick="previous()" style="opacity: 0.6;">.</button>
+                    <button style="color:#0177c3;">.</button>
+                    <button onclick="next()" style="opacity: 0.6;">.</button>
+                    <button onclick="next()" style="opacity: 0.4;">.</button>
+                    <button onclick="next()" style="opacity: 0.2;">.</button>
+                </div>
+                <img src="./Picture/save.png" alt="save" id="save" onclick="Save_change()">
+            </div>
+            <div class="last">
+                <p>19,999 views</p>
+                <p><b>Shubham Joshi</b>Quotes Generator</p>
+                <p id="days">1 DAYS AGO</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
