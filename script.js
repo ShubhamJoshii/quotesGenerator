@@ -59,5 +59,5 @@ const Save_change = ()=>{
 const loading = ()=>{
     setTimeout(()=>{
         document.getElementById('loading').style.display="none";
-    },500)
+    },5000)
 }
