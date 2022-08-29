@@ -19,6 +19,19 @@
   );
 }
 
+#loading{
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: url("./Picture/loading.gif");
+  background-repeat: no-repeat;
+  /* align-items: center; */
+  display: flex;
+  margin: 40vh 40vw;
+  /* text-align: center; */
+  /* align-content: center; */
+}
+
 .quotes {
   position: relative;
   height: 575px;
